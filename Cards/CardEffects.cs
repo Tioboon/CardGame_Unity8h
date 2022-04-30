@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-[Serializable]
+[Serializable] //Possibilita essa classe aparecer no inspector
 public class CardEffects
 {
+    //Váriaveis dos efeitos
     public EffectEnum type;
     public int value;
 }
